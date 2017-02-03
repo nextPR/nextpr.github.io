@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f20a0072-2ba4-41dc-95f0-81b681aa7ad1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="f20a0072-2ba4-41dc-95f0-81b681aa7ad1" name="Default" comment="" />
     <ignored path="nextpr.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -174,12 +171,12 @@
       <option name="presentableId" value="Default" />
       <updated>1485451430913</updated>
       <workItem from="1485451432207" duration="43000" />
-      <workItem from="1486111708606" duration="134000" />
+      <workItem from="1486111708606" duration="446000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177000" />
+    <option name="totallyTimeSpent" value="489000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="23" width="1680" height="973" extended-state="0" />
