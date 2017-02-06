@@ -17,6 +17,10 @@
 
 }
 
+.textright {
+	float:right;
+}
+
 
 .wrapper.style3 label {
 	color: #756d58;
