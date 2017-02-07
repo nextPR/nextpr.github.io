@@ -33,6 +33,7 @@
 
 		&.style1 {
 			background-color: _palette(accent1);
+
 		}
 
 		&.style1-alt {
@@ -49,6 +50,18 @@
 
 		&.style3 {
 			background-color: _palette(accent3);
+
+				color: _palette(fg-dark);
+			h2 {
+				color: _palette(fg-dark);
+			}
+			h3 {
+				color: _palette(fg-dark);
+			}
+
+			#darkbutton {
+				color: _palette(fg-dark) !important;
+			}
 		}
 
 		&.style3-alt {

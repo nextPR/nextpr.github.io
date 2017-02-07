@@ -35,6 +35,13 @@
 			body.is-ie & {
 				height: 100%;
 			}
+
+
+
+		}
+
+		.logo {
+			margin: -3em auto 6em auto;
 		}
 
 		nav {
@@ -75,7 +82,7 @@
 				letter-spacing: _font(kerning-alt);
 				line-height: 1.75;
 				outline: 0;
-				padding: 1.35em 0;
+				padding: 1.35em 0 .5em 0;
 				position: relative;
 				text-decoration: none;
 				text-transform: uppercase;
@@ -141,11 +148,18 @@
 			width: 100%;
 
 			> .inner {
+
+				>.logo {
+					display: none;
+				}
+
 				@include vendor('flex-direction', 'row');
 				@include vendor('align-items', 'stretch');
 				height: inherit;
 				line-height: inherit;
 			}
+
+
 
 			nav {
 				height: inherit;

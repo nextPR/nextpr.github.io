@@ -18,10 +18,11 @@
 
 		<!-- Sidebar -->
 			<section id="sidebar">
-				<img src="./images/heart_1.png" alt="Herz" height="250" width="200">
 
 
 			<div class="inner">
+				<img class="logo"  src="./images/logo.png" alt="Herz" height="280" width="180">
+
 				<nav>
 						<ul>
 							<li><a href="#intro">Wilkommen</a></li>
@@ -38,46 +39,52 @@
 			<div id="wrapper">
 
 				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner">
-							<h1>FASD-Zentrum Berlin</h1>
-							<p>Wilkommen auf unserer Informationsseite zum Thema <a href="./fasd.html">Fetale Alkoholspektrum-Störungen </a>(FASD). <a href="#one">Wir</a> blicken auf viele Jahre intensive Forschungarbeit im Bereich zurück und möchten Ihnen unsere Expertise zur Verfügung stellen. Hier finden Sie Informationen zu: <br/> <a href="./behandlungsablauf.html">Behandlungsablauf</a> | <br> <a href="#two">Presse und Medien</a> | <br> <a href="#three">Kontaktmöglichkeiten</a> </p>
-							<ul class="actions">
-								<li><a id="kontaktbtn" href="#three" class="button scrolly">Terminvereinbarung</a></li>
-							</ul>
-						</div>
-					</section>
+
+				<section id="intro" class="wrapper style1 fullscreen fade-up">
+					<div class="inner">
+						<h1>FASD-Zentrum Berlin</h1>
+						<p>Wilkommen auf unserer Informationsseite zum Thema <a href="./fasd.html">Fetale Alkoholspektrum-Störungen </a>(FASD). <a href="#one">Wir</a> blicken auf viele Jahre intensive Forschungarbeit im Bereich zurück und möchten Ihnen unsere Expertise zur Verfügung stellen. Hier finden Sie Informationen zu: <br><br> <a href="./behandlungsablauf.html">Behandlungsablauf</a> |  <a href="#two">Presse und Medien</a> |  <a href="#three">Kontaktmöglichkeiten</a> </p>
+						<ul class="actions">
+							<li><a id="kontaktbtn" href="#three" class="button scrolly">Terminvereinbarung</a></li>
+						</ul>
+					</div>
+				</section>
+
 
 				<!-- One -->
 					<section id="one" class="wrapper style2 spotlights">
-						<section>
-							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
+
+						<section class="">
+							<a href="#" class="image" style="background-image: url(&quot;images/pic01.jpg&quot;); background-position: center center;"><img src="images/pic01.jpg" alt="" data-position="center center" style="display: none;"></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Prof. Dr. Hans-Ludwig Spohr</h2>
 									<p>Seit über 40 Jahren setzt sich Hans-Ludwig Spohr in Beruf und Forschung für alkoholgeschädigte Kinder ein. In Anerkennung für sein Engagement im Bereich FASD wurde ihm hierfür das Bundestverdienstkreuz verliehen. Bis 2005 war Prof. Spohr Leiter der Klinik für Kinder- und Jugendmedizin der DRK-Kliniken in Berlin-Westend. Heute widmet er sich in Vollzeit der Diagnose und Versorgung von Betroffenen.
-                                    </p>
-
+									</p>
 									<ul class="actions">
 										<li><a href="mailto:hans-ludwig.spohr@charite.de" class="button">hans-ludwig.spohr@charite.de</a></li>
 									</ul>
 								</div>
 							</div>
 						</section>
-						<section>
-							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Fr. Heike Wolter</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="mailto:heike.wolter@charite.de
+
+						<!-- Two -->
+
+
+							<section class="">
+								<a href="#" class="image" style="background-image: url(&quot;images/pic02.jpg&quot;); background-position: center center;"><img src="images/pic01.jpg" alt="" data-position="center center" style="display: none;"></a>
+								<div class="content">
+									<div class="inner">
+										<h2>Fr. Heike Wolter</h2>
+										<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+										<ul class="actions">
+											<li><a href="mailto:heike.wolter@charite.de
 " class="button">heike.wolter@charite.de
-                                        </a></li>
-									</ul>
+											</a></li>
+										</ul>
+									</div>
 								</div>
-							</div>
-						</section>
+							</section>
 
 					</section>
 
@@ -180,7 +187,7 @@
 											<textarea name="message" id="message" rows="5"></textarea>
 										</div>
 										<ul class="actions">
-											<li><a href="" class="button submit">Kontaktanfrage verschicken</a></li>
+											<li><a href="" id="darkbutton" class="button submit">Kontaktanfrage verschicken</a></li>
 										</ul>
 									</form>
 								</section>
