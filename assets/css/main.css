@@ -2112,7 +2112,7 @@ sup {
 
 /* line 149, ../sass/base/_typography.scss */
 blockquote {
-  border-left: solid 4px rgba(255, 255, 255, 0.15);
+  border-left: solid 4px rgba(255, 255, 255, 0.4);
   font-style: italic;
   margin: 0 0 1em 0;
   padding: 0.25em 0 0.25em 1em;
@@ -2120,9 +2120,9 @@ blockquote {
 
 /* line 156, ../sass/base/_typography.scss */
 code {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.15);
   border-radius: 0.25em;
-  border: solid 1px rgba(255, 255, 255, 0.15);
+  border: solid 1px rgba(255, 255, 255, 0.4);
   font-family: "Courier New", monospace;
   font-size: 0.9em;
   margin: 0 0.25em;
@@ -2147,7 +2147,7 @@ pre code {
 /* line 180, ../sass/base/_typography.scss */
 hr {
   border: 0;
-  border-bottom: solid 1px rgba(255, 255, 255, 0.15);
+  border-bottom: solid 1px rgba(255, 255, 255, 0.4);
   margin: 1em 0;
 }
 /* line 185, ../sass/base/_typography.scss */
@@ -2174,7 +2174,7 @@ hr.major {
 /* line 9, ../sass/components/_box.scss */
 .box {
   border-radius: 0.25em;
-  border: solid 1px rgba(255, 255, 255, 0.15);
+  border: solid 1px rgba(255, 255, 255, 0.4);
   margin-bottom: 1em;
   padding: 1.5em;
 }
@@ -2206,9 +2206,9 @@ button,
   -webkit-transition: border-color 0.2s ease;
   -ms-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
-  background-color: transparent;
+  background-color: rgba(213, 222, 217, 0.25);
   border: solid 1px !important;
-  border-color: rgba(255, 255, 255, 0.15) !important;
+  border-color: rgba(255, 255, 255, 0.4) !important;
   border-radius: 3em;
   color: #ffffff !important;
   cursor: pointer;
@@ -2371,15 +2371,15 @@ button:hover:active:after,
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   border-radius: 0.25em;
-  border: solid 1px rgba(255, 255, 255, 0.15);
-  background: rgba(255, 255, 255, 0.05);
+  border: solid 1px rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.15);
   margin: 0 0 1em 0;
 }
 /* line 17, ../sass/components/_features.scss */
 .features section {
   padding: 3.5em 3em 2em 7em ;
   width: 50%;
-  border-top: solid 1px rgba(255, 255, 255, 0.15);
+  border-top: solid 1px rgba(255, 255, 255, 0.4);
   position: relative;
 }
 /* line 23, ../sass/components/_features.scss */
@@ -2388,7 +2388,7 @@ button:hover:active:after,
 }
 /* line 27, ../sass/components/_features.scss */
 .features section:nth-child(2n) {
-  border-left: solid 1px rgba(255, 255, 255, 0.15);
+  border-left: solid 1px rgba(255, 255, 255, 0.4);
 }
 /* line 31, ../sass/components/_features.scss */
 .features section .icon {
@@ -2635,7 +2635,7 @@ form > .actions {
 
 /* line 45, ../sass/components/_form.scss */
 label {
-  color: #585242;
+  color: #403a2d;
   font-weight: bold;
   line-height: 1.5;
   margin: 0 0 0.35em 0;
@@ -2654,10 +2654,10 @@ textarea {
   -webkit-appearance: none;
   -ms-appearance: none;
   appearance: none;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.15);
   border-radius: 0.25em;
   border: none;
-  border: solid 1px rgba(255, 255, 255, 0.15);
+  border: solid 1px rgba(255, 255, 255, 0.4);
   color: inherit;
   display: block;
   outline: 0;
@@ -2702,7 +2702,7 @@ textarea:focus {
 }
 /* line 87, ../sass/components/_form.scss */
 .select-wrapper:before {
-  color: rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.4);
   content: '\f078';
   display: block;
   height: 2.75em;
@@ -2782,9 +2782,9 @@ input[type="radio"] + label:before {
 /* line 149, ../sass/components/_form.scss */
 input[type="checkbox"] + label:before,
 input[type="radio"] + label:before {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.15);
   border-radius: 0.25em;
-  border: solid 1px rgba(255, 255, 255, 0.15);
+  border: solid 1px rgba(255, 255, 255, 0.4);
   content: '';
   display: inline-block;
   height: 1.65em;
@@ -2994,7 +2994,7 @@ ul.alt {
 }
 /* line 32, ../sass/components/_list.scss */
 ul.alt li {
-  border-top: solid 1px rgba(255, 255, 255, 0.15);
+  border-top: solid 1px rgba(255, 255, 255, 0.4);
   padding: 0.5em 0;
 }
 /* line 36, ../sass/components/_list.scss */
@@ -3161,7 +3161,7 @@ ul.menu {
 }
 /* line 198, ../sass/components/_list.scss */
 ul.menu > li {
-  border-left: solid 1px rgba(255, 255, 255, 0.15);
+  border-left: solid 1px rgba(255, 255, 255, 0.4);
   display: inline-block;
   line-height: 1;
   margin-left: 1.5em;
@@ -3247,7 +3247,7 @@ header h6 + p {
 /* line 16, ../sass/components/_split.scss */
 .split > :nth-child(2n - 1) {
   padding-right: 2.5em;
-  border-right: solid 1px rgba(255, 255, 255, 0.15);
+  border-right: solid 1px rgba(255, 255, 255, 0.4);
 }
 /* line 21, ../sass/components/_split.scss */
 .split > :nth-child(2n) {
@@ -3290,7 +3290,7 @@ header h6 + p {
   }
   /* line 62, ../sass/components/_split.scss */
   .split > * {
-    border-top: solid 1px rgba(255, 255, 255, 0.15);
+    border-top: solid 1px rgba(255, 255, 255, 0.4);
     margin: 4em 0 0 0;
     padding: 4em 0 0 0;
     width: 100% !important;
@@ -3470,13 +3470,13 @@ table {
 }
 /* line 19, ../sass/components/_table.scss */
 table tbody tr {
-  border: solid 1px rgba(255, 255, 255, 0.15);
+  border: solid 1px rgba(255, 255, 255, 0.4);
   border-left: 0;
   border-right: 0;
 }
 /* line 24, ../sass/components/_table.scss */
 table tbody tr:nth-child(2n + 1) {
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.15);
 }
 /* line 30, ../sass/components/_table.scss */
 table td {
@@ -3492,11 +3492,11 @@ table th {
 }
 /* line 42, ../sass/components/_table.scss */
 table thead {
-  border-bottom: solid 2px rgba(255, 255, 255, 0.15);
+  border-bottom: solid 2px rgba(255, 255, 255, 0.4);
 }
 /* line 46, ../sass/components/_table.scss */
 table tfoot {
-  border-top: solid 2px rgba(255, 255, 255, 0.15);
+  border-top: solid 2px rgba(255, 255, 255, 0.4);
 }
 /* line 50, ../sass/components/_table.scss */
 table.alt {
@@ -3504,7 +3504,7 @@ table.alt {
 }
 /* line 55, ../sass/components/_table.scss */
 table.alt tbody tr td {
-  border: solid 1px rgba(255, 255, 255, 0.15);
+  border: solid 1px rgba(255, 255, 255, 0.4);
   border-left-width: 0;
   border-top-width: 0;
 }
@@ -3577,19 +3577,19 @@ table.alt tfoot {
 /* line 51, ../sass/components/_wrapper.scss */
 .wrapper.style3 {
   background-color: #d5ded9;
-  color: #585242;
+  color: #403a2d;
 }
 /* line 55, ../sass/components/_wrapper.scss */
 .wrapper.style3 h2 {
-  color: #585242;
+  color: #403a2d;
 }
 /* line 58, ../sass/components/_wrapper.scss */
 .wrapper.style3 h3 {
-  color: #585242;
+  color: #403a2d;
 }
 /* line 62, ../sass/components/_wrapper.scss */
 .wrapper.style3 #darkbutton {
-  color: #585242 !important;
+  color: #403a2d !important;
 }
 /* line 67, ../sass/components/_wrapper.scss */
 .wrapper.style3-alt {
@@ -3696,7 +3696,6 @@ body.is-ie .wrapper.fullscreen {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  background-color: #036564;
   cursor: default;
   padding: 1.75em 2em;
 }
@@ -3709,6 +3708,14 @@ body.is-ie .wrapper.fullscreen {
   font-weight: bold;
 }
 /* line 23, ../sass/layout/_header.scss */
+#header > .titleimage {
+  float: left;
+  content: url("../../images/logo_wide.png");
+  max-width: 100%;
+  max-height: 75px;
+  margin-top: -.70em;
+}
+/* line 31, ../sass/layout/_header.scss */
 #header > nav {
   -moz-flex: 1;
   -webkit-flex: 1;
@@ -3716,23 +3723,23 @@ body.is-ie .wrapper.fullscreen {
   flex: 1;
   text-align: right;
 }
-/* line 27, ../sass/layout/_header.scss */
+/* line 35, ../sass/layout/_header.scss */
 #header > nav > ul {
   margin: 0;
   padding: 0;
 }
-/* line 31, ../sass/layout/_header.scss */
+/* line 39, ../sass/layout/_header.scss */
 #header > nav > ul > li {
   display: inline-block;
   margin-left: 1.75em;
   padding: 0;
   vertical-align: middle;
 }
-/* line 37, ../sass/layout/_header.scss */
+/* line 45, ../sass/layout/_header.scss */
 #header > nav > ul > li:first-child {
   margin-left: 0;
 }
-/* line 41, ../sass/layout/_header.scss */
+/* line 49, ../sass/layout/_header.scss */
 #header > nav > ul > li a {
   border: 0;
   color: rgba(255, 255, 255, 0.35);
@@ -3742,11 +3749,11 @@ body.is-ie .wrapper.fullscreen {
   letter-spacing: 0.25em;
   text-transform: uppercase;
 }
-/* line 50, ../sass/layout/_header.scss */
+/* line 58, ../sass/layout/_header.scss */
 #header > nav > ul > li a:hover {
   color: rgba(255, 255, 255, 0.55);
 }
-/* line 54, ../sass/layout/_header.scss */
+/* line 62, ../sass/layout/_header.scss */
 #header > nav > ul > li a.active {
   color: #ffffff;
 }
@@ -3755,29 +3762,37 @@ body.is-ie .wrapper.fullscreen {
   #header {
     padding: 1em 2em;
   }
+  /* line 73, ../sass/layout/_header.scss */
+  #header .titleimage {
+    display: none;
+  }
 }
 @media screen and (max-width: 480px) {
   /* line 9, ../sass/layout/_header.scss */
   #header {
     display: block;
     padding: 0 2em;
-    text-align: left;
+    text-align: center;
   }
-  /* line 71, ../sass/layout/_header.scss */
+  /* line 83, ../sass/layout/_header.scss */
   #header .title {
     font-size: 1.25em;
     padding: 1em 0;
   }
-  /* line 76, ../sass/layout/_header.scss */
+  /* line 88, ../sass/layout/_header.scss */
+  #header .titleimage {
+    display: none;
+  }
+  /* line 92, ../sass/layout/_header.scss */
   #header > nav {
-    border-top: solid 1px rgba(255, 255, 255, 0.15);
+    border-top: solid 1px rgba(255, 255, 255, 0.4);
     text-align: inherit;
   }
-  /* line 81, ../sass/layout/_header.scss */
+  /* line 97, ../sass/layout/_header.scss */
   #header > nav > ul > li {
     margin-left: 1.5em;
   }
-  /* line 84, ../sass/layout/_header.scss */
+  /* line 100, ../sass/layout/_header.scss */
   #header > nav > ul > li a {
     height: 6em;
     line-height: 6em;
@@ -3820,7 +3835,7 @@ body.is-ie .wrapper.fullscreen {
 }
 /* line 19, ../sass/layout/_footer.scss */
 #footer > .inner a {
-  border-bottom-color: rgba(255, 255, 255, 0.15);
+  border-bottom-color: rgba(255, 255, 255, 0.4);
 }
 /* line 22, ../sass/layout/_footer.scss */
 #footer > .inner a:hover {
@@ -3829,7 +3844,7 @@ body.is-ie .wrapper.fullscreen {
 /* line 27, ../sass/layout/_footer.scss */
 #footer > .inner .menu {
   font-size: 0.8em;
-  color: rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.4);
 }
 /* line 34, ../sass/layout/_footer.scss */
 #header + #wrapper + #footer > .inner {

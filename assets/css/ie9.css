@@ -82,6 +82,13 @@ body.is-ie .wrapper.fullscreen {
   float: left;
 }
 /* line 110, ../sass/ie9.scss */
+#header > .titleimage {
+  float: left;
+  background-image: url("/images/logo_wide.png");
+  max-width: 300px;
+  max-height: 100px;
+}
+/* line 117, ../sass/ie9.scss */
 #header > nav {
   float: right;
 }
