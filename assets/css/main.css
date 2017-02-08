@@ -3562,40 +3562,45 @@ table.alt tfoot {
 .wrapper.style1 {
   background-color: #036564;
 }
-/* line 39, ../sass/components/_wrapper.scss */
+/* line 37, ../sass/components/_wrapper.scss */
+.wrapper.style1 a {
+  color: #011218;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+/* line 44, ../sass/components/_wrapper.scss */
 .wrapper.style1-alt {
   background-color: #011218;
 }
-/* line 43, ../sass/components/_wrapper.scss */
+/* line 48, ../sass/components/_wrapper.scss */
 .wrapper.style2 {
   background-color: #5052b5;
 }
-/* line 47, ../sass/components/_wrapper.scss */
+/* line 52, ../sass/components/_wrapper.scss */
 .wrapper.style2-alt {
   background-color: #3e4094;
 }
-/* line 51, ../sass/components/_wrapper.scss */
+/* line 56, ../sass/components/_wrapper.scss */
 .wrapper.style3 {
   background-color: #d5ded9;
   color: #403a2d;
 }
-/* line 55, ../sass/components/_wrapper.scss */
+/* line 60, ../sass/components/_wrapper.scss */
 .wrapper.style3 h2 {
   color: #403a2d;
 }
-/* line 58, ../sass/components/_wrapper.scss */
+/* line 63, ../sass/components/_wrapper.scss */
 .wrapper.style3 h3 {
   color: #403a2d;
 }
-/* line 62, ../sass/components/_wrapper.scss */
+/* line 67, ../sass/components/_wrapper.scss */
 .wrapper.style3 #darkbutton {
   color: #403a2d !important;
 }
-/* line 67, ../sass/components/_wrapper.scss */
+/* line 72, ../sass/components/_wrapper.scss */
 .wrapper.style3-alt {
   background-color: #585242;
 }
-/* line 71, ../sass/components/_wrapper.scss */
+/* line 76, ../sass/components/_wrapper.scss */
 .wrapper.fullscreen {
   display: -moz-flex;
   display: -webkit-flex;
@@ -3611,32 +3616,32 @@ table.alt tfoot {
   justify-content: center;
   min-height: 100vh;
 }
-/* line 77, ../sass/components/_wrapper.scss */
+/* line 82, ../sass/components/_wrapper.scss */
 body.is-ie .wrapper.fullscreen {
   height: 100vh;
 }
 @media screen and (max-width: 1280px) {
-  /* line 71, ../sass/components/_wrapper.scss */
+  /* line 76, ../sass/components/_wrapper.scss */
   .wrapper.fullscreen {
     min-height: calc(100vh - 2.5em);
   }
-  /* line 84, ../sass/components/_wrapper.scss */
+  /* line 89, ../sass/components/_wrapper.scss */
   body.is-ie .wrapper.fullscreen {
     height: calc(100vh - 2.5em);
   }
 }
 @media screen and (max-width: 736px) {
-  /* line 71, ../sass/components/_wrapper.scss */
+  /* line 76, ../sass/components/_wrapper.scss */
   .wrapper.fullscreen {
     padding: 2em 0;
     min-height: 0;
   }
-  /* line 93, ../sass/components/_wrapper.scss */
+  /* line 98, ../sass/components/_wrapper.scss */
   body.is-ie .wrapper.fullscreen {
     height: auto;
   }
 }
-/* line 100, ../sass/components/_wrapper.scss */
+/* line 105, ../sass/components/_wrapper.scss */
 .wrapper.fade-up > .inner {
   -moz-transform: translateY(0);
   -webkit-transform: translateY(0);
@@ -3648,7 +3653,7 @@ body.is-ie .wrapper.fullscreen {
   transition: opacity 1s ease, transform 1s ease;
   opacity: 1.0;
 }
-/* line 111, ../sass/components/_wrapper.scss */
+/* line 116, ../sass/components/_wrapper.scss */
 .wrapper.fade-up.inactive > .inner, body.is-loading .wrapper.fade-up > .inner {
   opacity: 0;
   -moz-transform: translateY(1em);
@@ -3656,7 +3661,7 @@ body.is-ie .wrapper.fullscreen {
   -ms-transform: translateY(1em);
   transform: translateY(1em);
 }
-/* line 119, ../sass/components/_wrapper.scss */
+/* line 124, ../sass/components/_wrapper.scss */
 .wrapper.fade-down > .inner {
   -moz-transform: translateY(0);
   -webkit-transform: translateY(0);
@@ -3668,7 +3673,7 @@ body.is-ie .wrapper.fullscreen {
   transition: opacity 1s ease, transform 1s ease;
   opacity: 1.0;
 }
-/* line 130, ../sass/components/_wrapper.scss */
+/* line 135, ../sass/components/_wrapper.scss */
 .wrapper.fade-down.inactive > .inner, body.is-loading .wrapper.fade-down > .inner {
   opacity: 0;
   -moz-transform: translateY(-1em);
@@ -3676,7 +3681,7 @@ body.is-ie .wrapper.fullscreen {
   -ms-transform: translateY(-1em);
   transform: translateY(-1em);
 }
-/* line 138, ../sass/components/_wrapper.scss */
+/* line 143, ../sass/components/_wrapper.scss */
 .wrapper.fade > .inner {
   -moz-transition: opacity 1s ease;
   -webkit-transition: opacity 1s ease;
@@ -3684,7 +3689,7 @@ body.is-ie .wrapper.fullscreen {
   transition: opacity 1s ease;
   opacity: 1.0;
 }
-/* line 147, ../sass/components/_wrapper.scss */
+/* line 152, ../sass/components/_wrapper.scss */
 .wrapper.fade.inactive > .inner, body.is-loading .wrapper.fade > .inner {
   opacity: 0;
 }
