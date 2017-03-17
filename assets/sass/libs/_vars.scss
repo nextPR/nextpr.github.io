@@ -1,0 +1,78 @@
+// Misc.
+	$misc: (
+		z-index-base:		10000,
+		max-features:		20,
+		max-sidebar-links:	20
+	);
+
+// Duration.
+	$duration: (
+		transition:			0.2s,
+		activation:			1s
+	);
+
+// Size.
+	$size: (
+		border-radius:		0.25em,
+		border-width:		1px,
+		element-height:		2.75em,
+		element-margin:		1em,
+		sidebar-width:		16em,
+		sidebar-height:		3.5em,	// when <=large is active
+		inner-width:		75em
+	);
+
+// Font.
+
+
+	$font: (
+		family:				('Work Sans', sans-serif),
+		family-fixed:		('Courier New', monospace),
+		size: 				1.3em,
+		size-xlarge: 		1.3em,
+		size-large: 		1.2em,
+		size-small: 		1.0em,
+		weight:				normal,
+		weight-bold:		bold,
+		kerning-alt:		0.25em
+	);
+
+
+// Palette.
+	$palette: (
+		bg: #99b2b7,
+		bg-alt:				#D5DED9,
+		fg:					rgba(255,255,255,0.55),
+		fg-bold:			#ffffff,
+		intro: rgb(102, 107, 121),
+		fg-light:			rgba(255,255,255,0.35),
+        fg-superlight:			rgba(255,255,255,0.15),
+		fg-dark: #323433,
+		border:				rgba(255,255,255,.4),
+		border-bg:			rgba(255,255,255,.15),
+		accent1:			darken(#756d58, 1),
+		accent1-alt:		darken(#756d58, 5),
+		accent2:			darken(#756d58, 10),
+		accent2-alt:		darken(#756d58, 15),
+		accent3: 			#d5ded9,
+		accent3-alt:		darken(#756d58, 10)
+	);
+
+/*$palette: (
+				bg: #99b2b7,
+				bg-alt:				darken(#033649, 5),
+				fg:					rgba(255,255,255,0.55),
+				fg-bold:			#ffffff,
+				intro: rgb(102, 107, 121),
+				fg-light:			rgba(255,255,255,0.35),
+				fg-superlight:			rgba(255,255,255,0.15),
+				fg-dark: #403a2d,
+				border:				rgba(255,255,255,.4),
+				border-bg:			rgba(255,255,255,.15),
+				accent1:			#036564,
+				accent1-alt:		darken(#033649, 10),
+				accent2:			#5052b5,
+				accent2-alt:		darken(#5052b5, 10),
+				accent3: 			#d5ded9,
+				accent3-alt:		darken(#756d58, 10)
+);*/
