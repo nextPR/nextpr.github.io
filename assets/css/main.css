@@ -1343,17 +1343,10 @@ h1 {
     position: relative;
     padding-bottom: 0.35em; }
     h1.major:after {
-<<<<<<< HEAD
       background-image: -moz-linear-gradient(to right, #a7b1a8, #d5ded9);
       background-image: -webkit-linear-gradient(to right, #a7b1a8, #d5ded9);
       background-image: -ms-linear-gradient(to right, #a7b1a8, #d5ded9);
       background-image: linear-gradient(to right, #a7b1a8, #d5ded9);
-=======
-      background-image: -moz-linear-gradient(to right, #726a56, #d5ded9);
-      background-image: -webkit-linear-gradient(to right, #726a56, #d5ded9);
-      background-image: -ms-linear-gradient(to right, #726a56, #d5ded9);
-      background-image: linear-gradient(to right, #726a56, #d5ded9);
->>>>>>> aa98c8dfce5e77cd68218bd4cb2036937ec82ba3
       -moz-transition: max-width 0.2s ease;
       -webkit-transition: max-width 0.2s ease;
       -ms-transition: max-width 0.2s ease;
@@ -1992,7 +1985,6 @@ input[type="radio"] + label:before {
     .icon.major:before {
       font-size: 1.25em; }
       .wrapper.style1 .icon.major:before {
-<<<<<<< HEAD
         color: #a7b1a8; }
       .wrapper.style1-alt .icon.major:before {
         color: #9da79e; }
@@ -2000,15 +1992,6 @@ input[type="radio"] + label:before {
         color: #b8c8bf; }
       .wrapper.style2-alt .icon.major:before {
         color: #aabcb2; }
-=======
-        color: #726a56; }
-      .wrapper.style1-alt .icon.major:before {
-        color: #665f4d; }
-      .wrapper.style2 .icon.major:before {
-        color: #585242; }
-      .wrapper.style2-alt .icon.major:before {
-        color: #494437; }
->>>>>>> aa98c8dfce5e77cd68218bd4cb2036937ec82ba3
       .wrapper.style3 .icon.major:before {
         color: #d5ded9; }
       .wrapper.style3-alt .icon.major:before {
@@ -2277,12 +2260,8 @@ header h6 + p {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-<<<<<<< HEAD
   min-height: 18em;
   max-height: 18em; }
-=======
-  min-height: 22.5em; }
->>>>>>> aa98c8dfce5e77cd68218bd4cb2036937ec82ba3
   body.is-ie .spotlights > section {
     min-height: 0; }
   .spotlights > section > .image {
@@ -2291,12 +2270,8 @@ header h6 + p {
     border-radius: 0;
     display: block;
     position: relative;
-<<<<<<< HEAD
     width: 18em;
     height: 18em; }
-=======
-    width: 25em; }
->>>>>>> aa98c8dfce5e77cd68218bd4cb2036937ec82ba3
     .spotlights > section > .image img {
       border-radius: 0;
       display: block; }
@@ -2436,7 +2411,6 @@ table {
   .wrapper.alt {
     background-color: #D5DED9; }
   .wrapper.style1 {
-<<<<<<< HEAD
     background-color: #a7b1a8; }
     .wrapper.style1 a {
       color: #9da79e;
@@ -2454,21 +2428,6 @@ table {
       color: #323433; }
     .wrapper.style3 h1 {
       color: #323433 !important; }
-=======
-    background-color: #726a56; }
-    .wrapper.style1 a {
-      color: #665f4d;
-      background-color: rgba(255, 255, 255, 0.15); }
-  .wrapper.style1-alt {
-    background-color: #665f4d; }
-  .wrapper.style2 {
-    background-color: #585242; }
-  .wrapper.style2-alt {
-    background-color: #494437; }
-  .wrapper.style3 {
-    background-color: #d5ded9;
-    color: #323433; }
->>>>>>> aa98c8dfce5e77cd68218bd4cb2036937ec82ba3
     .wrapper.style3 h2 {
       color: #323433; }
     .wrapper.style3 h3 {
@@ -2840,17 +2799,10 @@ table {
     #sidebar nav a:before {
       background: #a8bdc2; }
     #sidebar nav a:after {
-<<<<<<< HEAD
       background-image: -moz-linear-gradient(to right, #a7b1a8, #d5ded9);
       background-image: -webkit-linear-gradient(to right, #a7b1a8, #d5ded9);
       background-image: -ms-linear-gradient(to right, #a7b1a8, #d5ded9);
       background-image: linear-gradient(to right, #a7b1a8, #d5ded9);
-=======
-      background-image: -moz-linear-gradient(to right, #726a56, #d5ded9);
-      background-image: -webkit-linear-gradient(to right, #726a56, #d5ded9);
-      background-image: -ms-linear-gradient(to right, #726a56, #d5ded9);
-      background-image: linear-gradient(to right, #726a56, #d5ded9);
->>>>>>> aa98c8dfce5e77cd68218bd4cb2036937ec82ba3
       -moz-transition: max-width 0.2s ease;
       -webkit-transition: max-width 0.2s ease;
       -ms-transition: max-width 0.2s ease;
@@ -2929,7 +2881,6 @@ table {
   background-repeat: no-repeat;
   background-size: cover; }
   #intro h1 {
-<<<<<<< HEAD
     color: #323433;
     margin-bottom: -15px; }
   #intro h2 {
@@ -2939,12 +2890,6 @@ table {
   #intro p {
     font-size: 1.25em;
     color: #323433;
-=======
-    color: #323433; }
-  #intro p {
-    font-size: 1.25em;
-    color: #ffffff;
->>>>>>> aa98c8dfce5e77cd68218bd4cb2036937ec82ba3
     background: rgba(150, 150, 150, 0.4);
     padding: 10px; }
     @media screen and (max-width: 980px) {
